@@ -1,0 +1,62 @@
+.arrow{
+  background-color: gray;
+  height: 250px;
+}
+.g-px{
+  --bs-gutter-x:268px
+}
+.big{
+  display: none;
+}
+.active{
+  box-shadow:5px 5px 5px aqua;
+}
+.pre{
+  width: 100px;
+}
+.next{
+  width: 100px;
+}
+.gx-x{
+  --bs-gutter-x: 19rem;
+}
+.button-l,.button-r{
+  margin-top: 48px;
+}
+.button-l button, .button-r button{
+  padding-top: 235px;
+  padding-bottom: 235px;
+  border:none;
+  background-color: #3d5164;
+  opacity: 0.7;
+  transition: 0.5s;
+  color: rgb(178, 178, 178);
+  scale: 0.5;
+}
+.button-l{
+  padding-left:160px ;
+  z-index: 9;
+}
+.button-r{
+  margin-left:-100px ;
+  z-index: 9;
+}
+.button-l button i,.button-r button i {
+  font-size: 50px;
+}
+.button-l button:hover, .button-r button:hover{
+  background-color: #2b4c6b;
+  opacity: 0.9;
+  color: white;
+  scale: 1;
+}
+.pointer{
+  cursor: pointer;
+}
+body{
+  background-image: url(https://media.istockphoto.com/photos/smooth-dark-blue-with-black-vignette-studio-well-use-picture-id484005742?k=20&m=484005742&s=612x612&w=0&h=VmqaBkcjKnvhG23-46b8HfQp6i5GTb1kGyh6doBu_PU=);
+}
+.bg-slide{
+  background-color: #212529!important;
+  opacity: 0.9;
+}
